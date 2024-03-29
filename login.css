@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('bg.avif') no-repeat center center/cover;
+    height: 90vh;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 800px;
+}
+
+.head {
+    display: flex;
+
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 3px;
+    border-bottom: 1.5px solid gold;
+}
+
+.head h1 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 40px;
+    text-shadow: 4px 4px 8px gold,-4px -4px 8px gold;
+}
+
+.head i {
+    
+    font-size: 28px;
+    padding-bottom: 10px;
+    transition: 0.7s ease-in-out;
+    color: #547033;
+}
+.head i:hover{
+transform: scale(1.35);
+}
+
+.container p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+    
+}
+
+.container p a {
+text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.container p a:hover{
+text-decoration: underline;
+
+    font-size: 20.5px;
+
+}
+
+.form {
+    margin: 15px auto;
+    padding-bottom: 5px;
+    border-bottom: 1.6px solid gold;
+}
+
+.form i {
+    font-size: 17px;
+    padding-right: 15px;
+    
+}
+
+.form input {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.form input::placeholder{
+    
+    font-size: 16px;
+    color: black;
+}
+
+.btn{
+    border: 1px solid goldenrod;
+    margin: 20px 3px;
+    padding: 8px 20px;
+    outline: none;
+    background: none;
+    border-radius: 10px;
+    
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease-in-out;
+    
+    box-shadow: 2px 2px 8px #547033,-2px -2px 8px #547033;
+}
+
+.btn:hover{
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
